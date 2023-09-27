@@ -1,0 +1,159 @@
+:root{
+    --color-primary: rgba(182, 3, 3, 0.842);
+    --color-segundary: rgb(17, 17, 17);
+    --font-osvald: 'Oswald', sans-serif;
+    --font-lato: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerp{
+    display: flex;
+    flex-direction: column;
+} 
+
+/* Header Navagation */
+
+.navcontainer{
+    width: 100%;
+    min-height: 40px;
+    background-color: var(--color-segundary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 110px;
+    height: 120px;
+    margin: 0px 70px;
+}
+
+
+
+.buttons{
+    margin: 0px 30px;
+}
+
+.button{
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.button:hover{
+    color: #DDAA44;
+}
+
+
+.navbemvindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    gap: 10px;
+}
+
+/* Fim Header Navagation */
+
+/* Categorias */
+.CategoriasMain{
+    background-color: var(--color-segundary);
+    display: flex;
+    justify-content: space-around;
+}
+
+.Categoria{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--font-lato);
+}
+
+.Categoria:hover{
+    color: #DDAA44;
+    transition: all 0.3s;
+}
+
+/* Fim da Categorias */
+
+/* Cardapio */
+
+.cardapioTitle{
+    font-size: 36px;
+    font-family: var(--font-osvald);
+    text-align: center;
+    margin-top: 75px;
+    color: var(--color-primary);
+}
+
+.Main-cardapio{
+    flex: 1 0 auto;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "";
+    gap: 5px;
+    margin-top: 50px;
+
+    
+}
+
+.cardapio{
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.cardapio img{
+    width: 130px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cardapio h1{
+    font-size: 26px;
+}
+
+.cardapio p{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cardapio a{
+    margin-top: 5px;
+    background-color: rgb(156, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Fim do Cardapio */
