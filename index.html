@@ -30,7 +30,7 @@
             <nav class="navbar">
                 <!-- <a href="" class="logo"><img src="img/logo.png" alt="logo-jeanlanches" alt=""></a> -->
 
-                <a href="" class="logo">Jean Lanches</a>
+                <a href="https://api.whatsapp.com/send?phone=5512981073686&text=Quero%20Fazer%20Um%20%22Pedido%22!" target="_blank" class="logo"><img src="img/logo.png" alt="logo jean" srcset=""></a>
 
                 <div class="mobile-menu">
                     <div class="line1"></div>
@@ -39,13 +39,13 @@
                 </div>
 
                 <ul class="nav-list">
-                    <li><a href=""><i class="fa-solid fa-cash-register icon"></i> Fazer Pedido</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5512981073686&text=Quero%20Fazer%20Um%20%22Pedido%22!" target="_blank"><i class="fa-solid fa-cash-register icon"></i> Fazer Pedido</a></li>
 
-                    <li><a href=""> <i class="fa-solid fa-burger"></i> Cardapio</a></li>
+                    <li><a href="Paginas/cardapio.html" > <i class="fa-solid fa-burger"></i> Cardapio</a></li>
 
-                    <li><a href=""><i class="fa-solid fa-phone icon"></i> Ligar Agora</a></li>
+                    <li><a href="#contator"><i class="fa-solid fa-phone icon"></i> Ligar Agora</a></li>
 
-                    <li><a href=""><i class="fa-solid fa-location-dot icon"></i> Ver rota</a></li>
+                    <li><a href="#rota"><i class="fa-solid fa-location-dot icon"></i> Ver rota</a></li>
                 </ul>
             </nav>
         </header>
@@ -67,17 +67,15 @@
 
     </div>
 
-    <div class="container">
         
         <!-- Combos -->
         <section class="porcoes">
-            <div class="container">
 
                 <h2 class="comboTitle">Monte seu Combo!</h2>
                 <p class="comboParagrafo">Confira nossos Combos</p>
 
-                <div class="combos">
-                    <div class="comboItem">
+                <div class="combos row">
+                    <div class="comboItem col-md-3">
                         <h3>Combo "Mini"</h3>
                         <img src="img/comboTeste.jpg" alt="combo mini">
                         <p>Na compra de um Lanche leve <b>Fritas Mini</b> + <b>Refrigerante de 200ml Por +</b></p>
@@ -85,7 +83,7 @@
                         <h4><a href="">Fazer o Pedido</a></h4>
                     </div>
 
-                    <div class="comboItem">
+                    <div class="comboItem col-md-3">
                         <h3>Combo "Pequeno"</h3>
                         <img src="img/comboTeste.jpg" alt="combo pequeno">
                         <p>Na compra de um Lanche leve <b>Fritas Pequena</b> + <b>Refrigerante de 200ml Por +</b></p>
@@ -93,7 +91,7 @@
                         <h4><a href="">Fazer o Pedido</a></h4>
                     </div>
 
-                    <div class="comboItem">
+                    <div class="comboItem col-md-3">
                         <h3>Combo "Medio"</h3>
                         <img src="img/comboTeste.jpg" alt="combo medio">
                         <p>Na compra de um Lanche leve <b>Fritas Media</b> + <b>Refrigerante de 350ml Por +</b></p>
@@ -101,7 +99,7 @@
                         <h4><a href="">Fazer o Pedido</a></h4>
                     </div>
 
-                    <div class="comboItem">
+                    <div class="comboItem col-md-3">
                         <h3>Combo "Familia"</h3>
                         <img src="img/comboTeste.jpg" alt="combo familia">
                         <p>Na compra de <b>3 lanches</b> leve <b>Fritas Grande</b> + <b>Refrigerante de 2L</b> Por +</p>
@@ -111,10 +109,10 @@
 
                 </div>
 
-            </div>
+            
         </section>
         <!-- Fim dos combos -->
-    </div>
+
        <!-- Cardapio -->
        <section class="Cardapio">
                 <div class="Cardapio-main">
@@ -128,6 +126,8 @@
        </section>
 
        <!-- Fim do Cardapio -->
+
+       <!-- Acompanhamentos -->
     <div class="container">
         <!-- Slide -->
         <section class="slide">
@@ -152,18 +152,18 @@
         <!-- Contato -->
         <div class="ContainerMap">
             <p id="rota" class="EntreContato">ENTRE EM CONTATO</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.413545961648!2d-45.879154284740004!3d-23.191594953926657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a464b407763%3A0xf0b79dbac0f46070!2sJean%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1668430641363!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.413545961648!2d-45.879154284740004!3d-23.191594953926657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4a464b407763%3A0xf0b79dbac0f46070!2sJean%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1668430641363!5m2!1spt-BR!2sbr" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
 
-            <div class="containerContato">
+            <div class="containerContato row row-cols-1 row-cols-md-2 g-4" id="contator">
                 
-                <div class="Contato" id="ligar">
+                <div class="Contato col-sm-4" id="ligar">
                     <p class="ContatoTitle">Contato</p>
                     <button class="ContatoBtn">LIGAR AGORA</button>
                     <p class="ContatoParagrafo">(12) 98107-3686</p>
                     <p class="ContatoParagrafo">(12) 98228-2740</p>
                 </div>
 
-                <div class="Endereco">
+                <div class="Endereco col-md-4">
                     <p class="ContatoTitle">Endereço</p>
                     <button class="ContatoBtn">Ver Rotas</button>
                     <p class="ContatoParagrafo">Rua Itororó, 29 - Jardim Paulista</p>
@@ -172,7 +172,7 @@
                     <p class="ContatoParagrafo">Brasil</p>
                 </div>
 
-                <div class="horario">
+                <div class="horario col-md-4">
                     <p class="ContatoTitle">Horarios de Funcionamento</p>
                     <p class="ContatoParagrafo">seg.: 08:00 – 23:45</p>
                     <p class="ContatoParagrafo">ter.: 08:00 – 23:45</p>
@@ -184,7 +184,7 @@
                 </div>
             </div>
 
-            <div class="pedidoWhat"><a href="https://api.whatsapp.com/send?phone=5512981073686&text=Quero%20Fazer%20Um%20%22Pedido%22!" target="_blank"><img src="https://diskaguasantoantonio.com.br/wp-content/uploads/2019/12/Whatsapp-pedido.png" alt=""></a></div>
+            
 
 
         </div>
@@ -192,6 +192,8 @@
         <!-- Fim do Contato -->
 
     </div>
+
+    <!-- fim do Acompanhamentos -->
 
      <!-- fotter -->
      <div class="fotter">
