@@ -1,134 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo.png">
-    <title>Jean Lanches</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../Pastas Uteis/grid.css">
+   <link rel="stylesheet" href="../Pastas Uteis/normalize.css">
+   <link rel="stylesheet" href="../Pastas Uteis/reset.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+   <link rel="icon" href="img/logo.png">
+
+   <title>Jean Lanches</title>
 </head>
 <body>
-    <div class="container">
+    
         <!-- Header -->
-        <header class="navcontainer">
-            <a href="https://www.ifood.com.br/delivery/sao-jose-dos-campos-sp/jean-lanches-vila-piratininga/3a4e00d1-3a49-4572-a277-445a26d95267?utm_medium=ReserveGoogle"
-                target="_blank"><img src="../img/logo.png" alt="logo-jeanlanches" class="logo"></a>
-            <div class="buttons">
-                <a href="../index.html"
-                 class="button"> Página Principal</a>
-                
-            </div>
-        </header>
-        <!-- Fim do Header -->
+        <header>
+         <nav class="navbar">
+             <!-- <a href="" class="logo"><img src="img/logo.png" alt="logo-jeanlanches" alt=""></a> -->
+
+             <a href="https://api.whatsapp.com/send?phone=5512981073686&text=Quero%20Fazer%20Um%20%22Pedido%22!" target="_blank" class="logo"><img src="../img/logo.png" alt="logo jean" srcset=""></a>
+
+             <div class="mobile-menu">
+                 <div class="line1"></div>
+                 <div class="line2"></div>
+                 <div class="line3"></div>
+             </div>
+
+             <ul class="nav-list">
+                 <li><a href="../index.html" target="_blank"><i class="fa-solid fa-cash-register icon"></i> Home</a></li>
+
+                 <li><a href="Paginas/cardapio.html" > <i class="fa-solid fa-burger"></i> Cardapio</a></li>
+
+                 <!-- <li><a href="#contator"><i class="fa-solid fa-phone icon"></i> Ligar Agora</a></li>
+
+                 <li><a href="#rota"><i class="fa-solid fa-location-dot icon"></i> Ver rota</a></li> -->
+             </ul>
+            </nav>
+         </header>
+     <!-- Fim do Header -->
 
           <!-- Cardapio -->
 
+         <div class="container">
           
-          <div class="">
-            <div class="CategoriasMain">
-                <a href="#hamburguer" class="Categoria">Hambúrguer</a>
-                <a href="#Frango" class="Categoria">Lanches De Frango</a>
-                <a href="#hotdog" class="Categoria">Hot Dog</a>
-                <a href="#tradicionais" class="Categoria">Lanhces tradicionais</a>
-                <a href="#porçoes" class="Categoria">Porções</a>
-                <a href="#acai" class="Categoria">Açai</a>
-                <a href="#refri" class="Categoria">Refrigerantes</a>
-            </div>
             <!-- Hamburguer -->
-            <h1 id="hamburguer">Hambúrguer</h1> 
+            <h1 class="lanche-h1">Hambúrguer</h1> 
             <section class="Main-cardapio">
                      
-             <div class="cardapio item1">
-                <h1>Hambúrguer</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item2">
-                <h1>X-Burguer</h1>
-                <p>2 Hambúrguers,Queijo,Presunto,Batata Palha,Pão,Maionese</p>
-                <a href="">R$:14,00</a>
-             </div>
-
-             <div class="cardapio item3">
-                <h1>X-Salada</h1>
-                <p>2 Hambúrguers,Queijo,Tomate,Alface,Pão,Maionese</p>
-                <a href="">R$:14,00</a>
-             </div>
-
-             <div class="cardapio item4">
-                <h1>X-Duplo</h1>
-                <p>2 Hambúrguers,Salsicha,Queijo,Presunto,Batata Palha,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item5">
-                <h1>X-Egg</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item6">
-                <h1>X-Calabresa</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item7">
-                <h1>X-Bacon</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item8">
-                <h1>X-Egg Calabresa</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item9">
-                <h1>X-Egg Bacon</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item10">
-                <h1>X-CalaBacon</h1> 
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item11">
-                <h1>X-4 Queijos</h1>   
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item12">
-                <h1>X-Pônei</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
-
-             <div class="cardapio item13">
-                <h1>X-Tudo</h1>
-                <p>2 Hambúrguers,Pão,Maionese</p>
-                <a href="">R$:11,00</a>
-             </div>
+               <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/Cardapio1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/Cardapio2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/capaCardapio.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
               
             </section>
             <!-- Fim Hamburguer -->
 
             <!-- Frango -->
-            <h1 id="Frango">Lanches de Frango</h1>
+            <h1 class="lanche-h1">Lanches de Frango</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -140,7 +96,7 @@
             <!-- Fim Frango -->
 
             <!-- Hot Dog -->
-            <h1 id="hotdog">Hot Dog</h1>
+            <h1 class="lanche-h1">Hot Dog</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -152,7 +108,7 @@
             <!-- Fim Hot Dog -->
 
             <!-- Lanches de tradicionais -->
-            <h1 id="tradicionais">Lanhces tradicionais</h1>
+            <h1 class="lanche-h1">Lanhces tradicionais</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -164,7 +120,7 @@
             <!-- Fim Lanches tradicionais -->
 
             <!-- Porçoes -->
-            <h1 id="porçoes">Porções</h1>
+            <h1 class="lanche-h1">Porções</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -176,7 +132,7 @@
             <!-- Fim de Porções -->
 
             <!-- Açai -->
-            <h1 id="acai">Açai</h1>
+            <h1 class="lanche-h1">Açai</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -188,7 +144,7 @@
             <!-- Fim de Açai -->
 
             <!-- Refrigerante -->
-            <h1 id="refri">Refrigerantes</h1>
+            <h1 class="lanche-h1">Refrigerantes</h1>
             <section class="Main-cardapio">
                      
              <div class="cardapio item1">
@@ -199,9 +155,11 @@
             </section>
             <!-- Fim de Refrigerante  -->
 
-          </div>
+         </div>
    
     <!-- Fim do Cardapio -->
     </div>
+
+    <script src="../navbar.js"></script>
 </body>
 </html>
